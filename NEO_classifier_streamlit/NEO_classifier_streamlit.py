@@ -15,7 +15,7 @@ st.set_page_config(page_title="NEA classifier")
 st.title('NASA Nearest Earth Objects (a.k.a asteroids) classifier')
 
 try:
-    model = joblib.load('res\GradientBoostingClassifier.joblib')
+    model = joblib.load('NEO_classifier_streamlit\/res\GradientBoostingClassifier.joblib')
     print("model successfully loaded")
 except Exception as e:
     print(e)
