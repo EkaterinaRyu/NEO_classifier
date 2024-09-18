@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import  GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler
 
@@ -35,7 +36,8 @@ page_bg_img = '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 try:
-    model = joblib.load('NEO_classifier_streamlit\/res\GradientBoostingClassifier.joblib')
+    # model = joblib.load('NEO_classifier_streamlit\/res\GradientBoostingClassifier.joblib')
+    model = joblib.load('NEO_classifier_streamlit\/res\RandomForestClassifier.joblib')
     print("model successfully loaded")
 except Exception as e:
     print(e)
