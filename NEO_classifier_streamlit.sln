@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NEO_classifier_streamlit", "NEO_classifier_streamlit\NEO_classifier_streamlit.pyproj", "{BFB777E1-8E2E-46CB-87C8-F45BC16CB491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB777E1-8E2E-46CB-87C8-F45BC16CB491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB777E1-8E2E-46CB-87C8-F45BC16CB491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44EDAB5-7677-4624-8683-A092DC610C78}
+	EndGlobalSection
+EndGlobal
