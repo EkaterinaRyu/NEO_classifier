@@ -30,8 +30,8 @@
     <Folder Include="res\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="res\GradientBoostingClassifier.joblib" />
     <Content Include="res\nasa_archive.zip" />
+    <Content Include="res\RandomForestClassifier.joblib" />
     <Content Include="res\test_data.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
